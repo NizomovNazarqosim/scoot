@@ -1,0 +1,305 @@
+.hero{
+    padding-bottom: 100px;
+    &__back{
+        background-image: url(/images/hero-back.jpg);
+        max-width: 1440px;
+        width: 100%;
+        height: 650px;
+        background-size: cover;
+        background-position: center;
+    }
+    &__wrapper{
+       padding-top: 110px;
+    }
+    &__heading{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+        max-width: 500px;
+        width: 100%;
+    }
+    &__desc{
+        flex-wrap: nowrap;
+        margin-top: -10px;
+        margin-left: 100px;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        max-width: 405px;
+        width: 100%;
+    }
+    &__btn-wrapper{
+        margin-top: 40px;
+        padding-left: 100px;
+        transition: all 0.5s;
+    }
+    &__btn{
+        transition: all 0.5s;
+        max-width: 190px;
+    }
+    &__left-pic{
+       margin-top: -160px;
+    }
+    &__right-pic{
+        margin-top: -20px;
+        padding-left: 650px;
+    }
+    &__left-img{
+        max-width: 160px;
+        width: 100%;
+    }
+    &__right-img{
+        width: 447px;
+        // width: 100%;
+        height: 145px;
+    }
+    &__mobile-pic{
+        display: none;
+    }
+}
+@media only screen and (max-width:1260px){
+    .hero{
+        &__desc{
+            padding-left: 20px;
+        }
+        &__left-img{
+            max-width: 140px;
+        }
+        &__right-img{
+           max-width: 380px;
+        }
+    }
+}
+@media only screen and (max-width:1260px){
+    .hero{
+    &__right-pic{
+        margin-top: -30px;
+        padding-left: 620px;
+    }
+    &__btn-wrapper{
+        padding-left: 120px;
+    }
+  }  
+}
+@media only screen and (max-width:1180px){
+    .hero{
+        &__desc{
+            padding-left: 50px;
+        }
+        &__btn-wrapper{
+            padding-left: 150px;
+        }
+        &__right-pic{
+            padding-left: 580px;
+        }
+    }
+}
+@media only screen and (max-width:960px){
+    .hero{
+        &__desc{
+            padding-left: 40px;
+            max-width: 380px;
+            width: 100%;
+        }
+        &__btn-wrapper{
+            padding-left: 140px;
+        }
+        &__left-pic{
+            // max-width: 100px;
+        }
+        &__right-pic{
+            padding-left: 530px;
+            // max-width: 350px;
+            width: 100%;
+            height: 120px;
+        }
+    }
+}
+@media only screen and (max-width:880px){
+    .hero{
+        &__back{
+            background-image: url(/images/hero-back-tablet.jpg);
+            width: 100%;
+            max-width: 880px;
+            height: 650px;
+        }
+        &__heading{
+            padding-top: 30px;
+            font-family: 'Space Mono';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 56px;
+            line-height: 56px;
+            text-align: center;
+            letter-spacing: -2.5px;
+            color: #FFFFFF;     
+            text-align: center;     
+            margin: 0 auto;  
+        }
+        &__desc{
+            padding-top: 20px;
+            margin: 0 auto;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+            max-width: 573px;
+            width: 100%;
+        }
+        &__btn{
+            margin: 0 auto;
+            margin-left: 130px;
+        }
+        &__left-pic{
+            display: none;
+        }
+        &__right-pic{
+           position: absolute;
+           left: -530px;
+           margin-top: 40px;
+        }
+    }
+}
+@media only screen and (max-width:680px){
+     .hero{
+        &__btn{
+            margin-left: 100px;
+        }
+        &__right-pic{
+            position: relative;
+            max-width: 380px;
+            width: 100%;
+        }
+    }
+}
+@media only screen and(max-width:650px){
+    .hero{
+        &__btn{
+            margin-left: 70px;
+        }
+        &__right-img{
+            max-width: 300px;
+        }
+    }
+}
+@media only screen and (max-width:570px){
+    .hero{
+        &__heading{
+            padding-top: 5px;
+        }
+        &__btn{
+            margin-left: 40px;
+        }
+        &__right-pic{
+            margin-top: 20px;
+        }
+        &__right-img{
+            max-width: 270px;
+        }
+    }
+}
+@media only screen and (max-width:530px){
+    .hero{
+        &__btn{
+            margin-left: 20px;
+        }
+    }
+}
+@media only screen and (max-width:520px){
+    .hero{
+        &__heading{
+            font-size: 45px;
+            line-height: 45px;
+        }
+    }
+}
+@media only screen and (max-width:500px){
+    .hero{
+        &__btn{
+            margin-left: 10px;
+        }
+        &__heading{
+            padding-top: 0px;
+        }
+        &__right-img{
+            max-width: 250px;
+        }
+    }
+}
+@media only screen and (max-width:470px){
+    .hero{
+        &__heading{
+            margin-top: -10px;
+        }
+        &__back{
+            max-width: 480px;
+        }
+        &__btn{
+            margin-left: -10px;
+        }
+        &__right-img{
+            max-width: 200px;
+        }
+    }
+}
+@media only screen and (max-width:430px){
+    .hero{
+        &__btn{
+            margin-left: -40px;
+        }
+        &__dec{
+            margin-left: -40px;
+        }
+    }
+}
+@media only screen and (max-width:400px){
+    .hero{
+        &__back{
+            background-image: url(/images/hero-back-mobile.png);
+            max-width: 380px;
+        }
+        &__desc{
+            margin-left: -30px;
+        }
+        &__btn{
+            margin-left: -60px;
+        }
+        &__right-pic{
+            display: none;
+        }
+        &__mobile-pic{
+            display: inline-block;
+            max-width: 200px;
+            margin-top: -20px;
+            height: 140px;
+        }
+    }
+}
+@media only screen and (max-width:360px){
+    .hero{
+        &__btn{
+            max-width: 160px;
+            font-size: 14px;
+            padding: 10px 28px;
+        }
+    }
+}
+@media only screen and (max-width:331px){
+    .hero{
+        &__btn{
+            max-width: 160px;
+            font-size: 14px;
+            padding: 14px 22px;
+        }
+    }
+}

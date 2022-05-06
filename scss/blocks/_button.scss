@@ -1,0 +1,28 @@
+.button{
+    padding: 14px 39px;
+    background-color: #FCB72B;
+    display: flex;
+    max-width: 180px;
+    width: 100%;
+    height: 53px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background: transparent;
+    color: #FCB72B;
+    border: 1px solid #FCB72B;
+    display: flex;
+    text-align: center;
+    height: 50px;
+}
+.button:active{
+
+}
