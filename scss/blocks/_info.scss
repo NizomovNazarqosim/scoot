@@ -1,0 +1,44 @@
+.info{
+    &__list-wrapper{
+        display: inline-block;
+        justify-content: space-between;
+    }
+    &__list{
+        vertical-align: middle;
+        text-align: center;
+        list-style: none;
+        display: inline-block;
+        justify-content: space-between;
+    }
+    &__heading{
+        max-width: 445px;
+        width: 100%;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #495567;        
+        text-align: start;
+    }
+    &__desc{
+        max-width: 445px;
+        width: 100%;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        text-align: center;
+    }
+    &__img-div{
+        vertical-align: middle;
+        text-align: center;
+        display: inline-block;
+        justify-content: space-between;
+        padding-left: 80px;
+        max-width: 600px;
+    }
+}
