@@ -112,3 +112,56 @@
         margin-top: -120px;
     }
 }
+@media only screen and (max-width:1100px){
+    .footer{
+        &__btn-wrapper{
+            margin-left: 560px;
+            margin-top: -120px;
+        }
+    }
+}
+@media only screen and (max-width:953px){
+    .footer{
+        &__btn-wrapper{
+            margin-left: 440px;
+            margin-top: -120px;
+        }
+        &__heading{
+            max-width: 360px;
+        }
+    }
+}
+@media only screen and (max-width:860px){
+    .footer{
+        &__btn-wrapper{
+            margin-left: 380px;
+            margin-top: -120px;
+        }
+        &__heading{
+            font-size: 35px;
+            max-width: 330px;
+        }
+    }
+}
+
+@media only screen and (max-width:773px){
+    .footer{
+        &__btn-wrapper{
+            display: inline-block;
+            margin-left: 580px;
+            margin-top: -60px;
+
+        }
+        &__heading{
+            margin-top: -280px;
+            font-size: 42px;
+            max-width: 700px;
+        }
+        &__apple{
+            display: inline-block;
+        }
+        &__play{
+            display: inline-block;
+        }
+    }
+}
