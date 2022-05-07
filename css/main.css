@@ -1277,4 +1277,55 @@ body {
 .footer__btn-wrapper {
   margin-left: 700px;
   margin-top: -120px;
+}
+
+.last {
+  padding-top: 35px;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  background-color: #333A44;
+  max-width: 1440px;
+  width: 100%;
+  height: 96px;
+}
+.last__list {
+  list-style: none;
+  margin-left: 80px;
+}
+.last__link {
+  text-decoration: none;
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+  transition: all 0.4s;
+}
+.last__link:hover {
+  color: white;
+}
+.last__link:active {
+  opacity: 0.5;
+}
+.last__item + .last__item {
+  padding-left: 32px;
+}
+.last__list {
+  vertical-align: middle;
+  justify-content: space-between;
+  display: inline-block;
+}
+.last__item {
+  display: inline-block;
+  justify-content: space-between;
+}
+.last__media {
+  padding-left: 450px;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.last__face + .last__face {
+  margin-left: 32px;
 }/*# sourceMappingURL=main.css.map */
